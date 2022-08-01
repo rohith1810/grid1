@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" shrink-to-fit="no">
+    <title>Bootsrap assignment</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/511de46b15.js" crossorigin="anonymous"></script>
+</head>
+<style>
+ 
+    
+    #home img {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top center;
+        height: auto;
+    }
+    
+    #slogan {
+        margin-top: -45%;
+    }
+    
+    #header {
+        margin-top:45%;
+    }
+    
+    #hr1 {
+        width: 25%;
+        height: 3px;
+        background-color: green;
+        margin-left: 37.555555555%;
+    }
+    
+    .suspect {
+        background-image: url('dark.jpg');
+    }
+    
+    span {
+        padding-top: 8px;
+        padding-bottom: 2px;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    
+    .rohit {
+        margin-top: -25px;
+    }
+    
+    .butnav {
+        background-color: black;
+        border: 2px solid green;
+        color: white;
+    }
+    
+    #pricing h2 {
+        padding-top: 15px;
+        color: black;
+    }
+    
+    .Pricing {
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+        overflow: hidden;
+        border-radius: 15px;
+    }
+    .head1 {
+        height: 150px;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+        width: 100%;
+    }
+    
+    .head1 h2 {
+        padding-top: 25px;
+    }
+    
+    .head2 {
+        position: relative;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        z-index: 1;
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        border: 7px solid #fff;
+        margin-top: -80px;
+    }
+    
+    .head2 h2 {
+        padding-top: 25px;
+        overflow: hidden;
+    }
+    
+    .Pricing :hover .head2 {
+        border-color: darkcyan;
+        transition: .7s;
+    }
+    
+    .main-text {
+        padding: 30px 0;
+        text-align: center;
+    }
+    
+    .main-text p {
+        font-size: larger;
+        font-weight: bold;
+    }
+    
+    .main-text button {
+        padding: 10px;
+        width: auto;
+    }
+    
+    .skybg {
+        background-image: url('skybg1.jpg');
+    }
+    
+    @media only screen and (max-width:576px) {
+        #header {
+            margin-top: 27%;
+        }
+    }
+    @media only screen and (min-width:1140px) {
+        #header{
+            margin-top: 70%;
+        }
+    }
+</style>
+
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-success">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="infs.jpg" width="80px">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav  ms-auto mb-2 mb-lg-0 ">
+                        <li class="nav-item">
+                            <a class="nav-link active   border  border-end-5 border-dark" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link border  border-end-5 border-dark" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link   border  border-end-5 border-dark" href="#service">Service</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link   border  border-end-5 border-dark" href="#port">portfolio</a>
+                        </li>
+                        <li class="nav-item  border  border-end-5 border-dark ">
+                            <a class="nav-link" href="#pricing">Pricing</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="container-fluid" id="home">
+        <img src="sun.jpg" class="img-fluid" width="100%" >
+        <div class="row " id="slogan">
+            <div class="   col-md-12" id="div1">
+                <h2 class="text-center text-light"><i>Nice to meet you!</i></h2>
+                <h4 class="text-center text-light">We just don't build websites,we build brands</h4>
+                <p class="text-center text-light"><button type="button" class="btn btn-warning btn-sm ">GET IN TOUCH</button></p>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="about">
+        <div class="header text-center" id="header">About Me
+            <br>
+            <hr id="hr1">
+        </div>
+    </div>
+    <div class="container">
+        <div class="row ">
+            <div class="col1 col-sm-12 text-center col-md-6 mt-md-5">
+                <img src="steve.jpg" alt="image" width="75%">
+            </div>
+            <div class="col2 col-sm-12 col-md-6 justify-content-center">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit expedita odit explicabo quisquam unde, alias quod illum sequi eveniet consequatur iste dicta dolores? Molestias, consectetur sunt in exercitationem recusandae magnam.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit expedita odit explicabo quisquam unde, alias quod illum sequi eveniet consequatur iste dicta dolores? Molestias, consectetur sunt in exercitationem recusandae magnam.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit beatae voluptatum libero, nostrum esse placeat officiis cupiditate tempora ad provident aliquam, sapiente reprehenderit! Iusto, atque laborum? Culpa enim fuga fugiat?</p>
+                <button type="button" class="btn btn-success active">Download Resume</button>
+                <button type="button" class="btn btn-light btn-outline-success "> &nbsp; &nbsp; &nbsp;  &nbsp;Hire Me &nbsp; &nbsp;  &nbsp; &nbsp;</button>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <button type="button" class=" col1 col-sm-6  col-lg-3  btn btn-light btn-outline-success "><i class="fa-solid fa-rocket"></i> &nbsp;&nbsp;&nbsp; Education</button>
+            <button type="button" class=" col1 col-sm-6 col-lg-3 btn btn-light btn-outline-success "><i class="fa-solid fa-graduation-cap"></i>&nbsp;&nbsp;&nbsp;Education </button>
+            <button type="button" class=" col1 col-sm-6  col-lg-3 btn btn-light btn-outline-success "><i class="fa-solid fa-award"></i>&nbsp;&nbsp;&nbsp;Award </button>
+            <button type="button" class=" col1 col-sm-6  col-lg-3 btn btn-light btn-outline-success "><i class="fa-solid fa-gem"></i>&nbsp;&nbsp;&nbsp;Skills</button>
+        </div>
+    </div>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col1 col-sm-12 col-md-6 col-lg-3 ">
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 98.7%" aria-valuenow="98.7" aria-valuemin="0" aria-valuemax="100"> CSS 98.7%</div>
+                </div>
+                <br>
+            </div>
+            <div class="col1 col-sm-12 col-md-6 col-lg-3 ">
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 95.8%" aria-valuenow="95.8" aria-valuemin="0" aria-valuemax="100"> HTML 95.8%</div>
+                </div>
+                <br>
+            </div>
+            <div class="col1 col-sm-12 col-md-6 col-lg-3 ">
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 77.3%" aria-valuenow="77.3" aria-valuemin="0" aria-valuemax="100"> PHP 77.3%</div>
+                </div>
+                <br>
+            </div>
+            <div class="col1 col-sm-12 col-md-6 col-lg-3 ">
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 42%" aria-valuenow="42" aria-valuemin="0" aria-valuemax="100"> J QUERY 42%</div>
+                </div>
+                <br>
+            </div>
+        </div>
+    </div>
+    <div class="container suspect">
+        <div class="container " id="service">
+            <div class="header text-center text-light " id="servce">Service
+                <br>
+                <hr id="hr1">
+                <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, reiciendis officiis soluta provident officia </p>
+            </div>
+
+            <div class="row row-cols-3 ">
+                <div class="col-12 col-sm-12 col-md-4 ">
+                    <div class="text-center">
+                        <span class="bg-success">&nbsp;&nbsp;<i class="fa-solid fa-gear"></i>&nbsp;&nbsp;</span>
+                    </div>
+                    <div class="bg-light text-center">
+                        <strong>App Developement </strong>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos rerum at omnis tempore quia inventore esse cupiditate nobis quas iste mollitia natus</p>
+                        <button class="bg-success" type="button">Read more</button><br><span>&nbsp;</span>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4 ">
+                    <div class="text-center">
+                        <span class="bg-success">&nbsp;&nbsp;<i class="fa-solid fa-gear">&nbsp;&nbsp;</i></span>
+                    </div>
+                    <div class="bg-light text-center">
+                        <strong>App Developement </strong>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos rerum at omnis tempore quia inventore esse cupiditate nobis quas iste mollitia natus</p>
+                        <button class="bg-success" type="button">Read more</button><br><span>&nbsp;</span>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4 ">
+                    <div class="text-center">
+                        <span class="bg-success">&nbsp;&nbsp;<i class="fa-solid fa-gear">&nbsp;&nbsp;</i></span>
+                    </div>
+                    <div class="bg-light text-center">
+                        <strong>App Developement </strong>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos rerum at omnis tempore quia inventore esse cupiditate nobis quas iste mollitia natus</p>
+                        <button class="bg-success" type="button">Read more</button><br><span>&nbsp;</span>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+           
+            <div class="row row-cols-3 ">
+                <div class="col-12 col-sm-12 col-md-4 ">
+                    <div class="text-center">
+                        <span class="bg-success">&nbsp;&nbsp;<i class="fa-solid fa-gear">&nbsp;&nbsp;</i></span>
+                    </div>
+                    <div class="bg-light text-center">
+                        <strong>App Developement </strong>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos rerum at omnis tempore quia inventore esse cupiditate nobis quas iste mollitia natus</p>
+                        <button class="bg-success" type="button">Read more</button><br><span>&nbsp;</span>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4 ">
+                    <div class="text-center">
+                        <span class="bg-success">&nbsp;&nbsp;<i class="fa-solid fa-gear">&nbsp;&nbsp;</i></span>
+                    </div>
+                    <div class="bg-light text-center">
+                        <strong>App Developement </strong>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos rerum at omnis tempore quia inventore esse cupiditate nobis quas iste mollitia natus</p>
+                        <button class="bg-success" type="button">Read more</button><br><span>&nbsp;</span>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4 ">
+                    <div class="text-center">
+                        <span class="bg-success">&nbsp;&nbsp;<i class="fa-solid fa-gear">&nbsp;&nbsp;</i></span>
+                    </div>
+                    <div class="bg-light text-center">
+                        <strong>App Developement </strong>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos rerum at omnis tempore quia inventore esse cupiditate nobis quas iste mollitia natus</p>
+                        <button class="bg-success" type="button">Read more</button><br><span>&nbsp;</span>
+                    </div>
+                </div>
+            </div>
+            <span>&nbsp;</span>
+        </div>
+    </div>
+    <div class="container bg-light">
+        <div class="container ">
+            <div class="header text-center text-dark ">
+                <h3>My Team</h3>
+                <br>
+                <hr id="hr1">
+                <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, reiciendis officiis soluta provident officia </p>
+            </div>
+            <div class="row row-cols-4">
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="card">
+                        <img src="dark1.jpg" class="img-fluid" alt="image">
+                        <div class="rohit card-title text-center text-light"><i class="fa-brands fa-facebook">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i><i class="fa-brands fa-twitter"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-brands fa-linkedin-in"></i>
+                            <div class="card-body text-success text-center">James David
+                                <br>
+                                <section class="text-center text-dark">co-founder</section>
+                            </div>
+                        </div>
+                    </div><br>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="card">
+                        <img src="dark1.jpg" class="img-fluid" alt="image">
+                        <div class="rohit card-title text-center text-light"><i class="fa-brands fa-facebook">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i><i class="fa-brands fa-twitter"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-brands fa-linkedin-in"></i>
+                            <div class="card-body text-success text-center">James David
+                                <br>
+                                <section class="text-center text-dark">co-founder</section>
+                            </div>
+                        </div>
+                    </div><br>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="card">
+                        <img src="dark1.jpg" class="img-fluid" alt="image">
+                        <div class="rohit card-title text-center text-light"><i class="fa-brands fa-facebook">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i><i class="fa-brands fa-twitter"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-brands fa-linkedin-in"></i>
+                            <div class="card-body text-success text-center">James David
+                                <br>
+                                <section class="text-center text-dark">co-founder</section>
+                            </div>
+                        </div>
+                    </div>
+                </div><br>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="card">
+                        <img src="dark1.jpg" class="img-fluid" alt="image">
+                        <div class="rohit card-title text-center text-light"><i class="fa-brands fa-facebook">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i><i class="fa-brands fa-twitter"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-brands fa-linkedin-in"></i>
+                            <div class="card-body text-success text-center">James David
+                                <br>
+                                <section class="text-center text-dark">co-founder</section>
+                            </div>
+                        </div>
+                    </div>
+                </div><br>
+            </div>
+        </div>
+    </div>
+    <div class="container suspect">
+        <div class="container " id="port">
+            <div class="header text-center text-light " id="port">
+                <h2>Portfolio Galery</h2>
+                <br>
+                <hr id="hr1">
+                <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, reiciendis officiis soluta provident officia </p>
+                <div class="ptext-center">
+                    <button class="butnav">All</button>
+                    <button class="butnav">Illustrations</button>
+                    <button class="butnav">Photography</button>
+                    <button class="butnav">Websites</button>
+                    <button class="butnav">Art</button>
+                </div><br><span>&nbsp;</span>
+            </div>
+            <div class="row row-cols-4">
+                <div class="col-12 col-sm-6 col-md-3 ">
+                    <div class="text-center bg-success">
+                        <img src="dslr1.jpg" width="85%">
+                    </div><br><span>&nbsp;</span>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="text-center bg-success">
+                        <img src="dslr1.jpg" width="85%">
+                    </div><br><span>&nbsp;</span>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 ">
+                    <div class="text-center bg-success">
+                        <img src="dslr1.jpg" width="85%">
+                    </div><br><span>&nbsp;</span>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 ">
+                    <div class="text-center bg-success">
+                        <img src="dslr1.jpg" width="85%">
+                    </div><br><span>&nbsp;</span>
+                </div>
+            </div>
+            <div class="row row-cols-4">
+                <div class="col-12 col-sm-6 col-md-3 ">
+                    <div class="text-center bg-success">
+                        <img src="dslr1.jpg" width="85%">
+                    </div><br><span>&nbsp;</span>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="text-center bg-success">
+                        <img src="dslr1.jpg" width="85%">
+                    </div><br><span>&nbsp;</span>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 ">
+                    <div class="text-center bg-success">
+                        <img src="dslr1.jpg" width="85%">
+                    </div><br><span>&nbsp;</span>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3 ">
+                    <div class="text-center bg-success">
+                        <img src="dslr1.jpg" width="85%">
+                    </div><br><span>&nbsp;</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="header text-center text-light " id="pricing">
+            <h2>Pricing Plan</h2>
+            <br>
+            <hr id="hr1">
+            <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, reiciendis officiis soluta provident officia </p>
+
+            <div class="row">
+                <div class="col-sm-12 col-md-4">
+                    <div class="card Pricing">
+                        <div class="head1 text-center bg-success">
+                            <h2>Starter</h2>
+                        </div>
+                        <div class="head2  text-center text-dark bg-warning">
+                            <h2>$15 <br>/month</h2>
+                        </div>
+                        <div class="main-text">
+                            <p class="text-dark">10GB storage <br>10 Emails <br> 10Domains <br> Unlimited Bandwidth</p>
+                            <button type="button" class="text-light bg-dark btn-outline-success">Choose Plan</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="card Pricing">
+                        <div class="head1 text-center bg-success">
+                            <h2>Standard</h2>
+                        </div>
+                        <div class="head2  text-center text-dark bg-warning">
+                            <h2>$20<br>/month</h2>
+                        </div>
+                        <div class="main-text">
+                            <p class="text-dark">20GB storage <br>20 Emails <br> 20Domains <br> Unlimited Bandwidth</p>
+                            <button type="button" class="text-light bg-dark btn-outline-success">Choose Plan</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="card Pricing">
+                        <div class="head1 text-center bg-success">
+                            <h2>Premium</h2>
+                        </div>
+                        <div class="head2  text-center text-dark bg-warning">
+                            <h2>$25 <br>/month</h2>
+                        </div>
+                        <div class="main-text">
+                            <p class="text-dark">25GB storage <br>25 Emails <br> 25Domains <br> Unlimited Bandwidth</p>
+                            <button type="button" class="text-light bg-dark btn-outline-success">Choose Plan</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <span>&nbsp;</span>
+        <div class="container-fluid skybg">
+            <div class="container">
+                <div class="header text-center text-light " id="Blog1">
+                    <h2>Lets work Together</h2>
+                    <h4 class="text-success">I Am Avlaible For Freelance</h4>
+                    <button type="button" class="btn btn-outline-success bg-dark">Get Offer</button>
+                    <br><span>&nbsp;</span>
+                </div>
+            </div>
+        </div>
+        <span>&nbsp;</span>
+        <div class="container">
+            <div class="header text-center text-dark " id="Blog2">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15544.516664266423!2d80.21933566691892!3d13.090999400245511!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1659177734514!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <h2>Blog Post</h2>
+                <hr id="hr1">
+                <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, reiciendis officiis soluta provident officia </p><br>
+                <button class="btn btn-outline-success btn-light"><</button>&nbsp;&nbsp;<button class="btn btn-outline-success btn-light">></button>
+            </div>
+        </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+        
+       
+       
+    </body>
+
+</html>
